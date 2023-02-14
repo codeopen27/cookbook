@@ -1,0 +1,110 @@
+html{
+   background-color: rgb(254, 255, 255);
+    padding: 5%;
+    color: rgb(10, 9, 9);
+    display: flex;
+    justify-content: center;
+  }
+
+  .topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .topnav img{
+    width: 15%;}
+
+  h1{
+    font-family: fantasy;
+   font-weight: 900;
+   text-align: center; 
+   font-size: 50px; 
+  }
+p{ 
+    color: gray;
+}
+  .divbutton {
+    border: none;
+    color: rgb(1, 1, 1);
+    padding: 20px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+  }
+  .menu {border-radius: 50px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 40px;
+    font-size: 15px;
+    margin: 10px;
+    width: 100px;
+  }
+
+  .button1 {border-radius: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+}
+.divbutton {
+    display: flex;
+    justify-content: center;
+}
+
+.images{
+  display: flex;
+  width: 95%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.images div{
+  padding: 0% 3% 0% 3%;
+  flex: 0 0 300px;
+  /*minwidhth*/
+}
+
+.images div img{
+  width: 120%;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+
+.footer{
+  background: red;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+   
+  }
+
+
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    /*.images{
+      display: flex;
+      justify-content: space-evenly;  
+      flex-direction: row;
+      font-size: 10%;
+    }*/
+  }
+  
+
+  
+    
+    
+     
